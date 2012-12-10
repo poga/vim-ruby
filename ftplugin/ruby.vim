@@ -57,7 +57,7 @@ endif
 
 " To activate, :set ballooneval
 if has('balloon_eval') && exists('+balloonexpr')
-  setlocal balloonexpr=RubyBalloonexpr()
+  " setlocal balloonexpr=RubyBalloonexpr()
 endif
 
 
